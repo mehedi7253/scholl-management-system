@@ -1,0 +1,108 @@
+/* start header area */
+header{
+    width: 100%;
+    z-index: 100;
+}
+.slide-container-fluid{
+    position: relative;
+    top: 58px;
+    margin-bottom: 58px;
+    width: 100%;
+}
+.bg-color{
+    background-color: #1BBD36;
+}
+.bg-gray{
+    background-color: #ddd;
+}
+.navbar-brand h1{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 10px;
+    float: left;
+}
+.navbar-brand h1 span{
+    color: #1BBD36;
+}
+#myMenu ul li{
+    text-align: center;
+}
+#myMenu ul li a{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    padding: 30px;
+    text-transform: uppercase;
+}
+#myMenu ul li a.active{
+    color: #1BBD36;
+}
+#myMenu ul li a:hover{
+    color: #1BBD36;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+
+/*admission*/
+
+.admission{
+    background-color: #9A258E;
+    font-size: 20px;
+    font-family: "Harlow Solid Italic";
+    text-transform: capitalize;
+    color: white;
+}
+
+.contact{
+    background-image: url("../../images/istockphoto-995719694-612x612.jpg");
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    background-size: 100% 100%;
+
+}
+
+.notice{
+    background-image: url("../../images/1.jpg");
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    background-size: 100% 100%;
+}
+.top_student{
+    background-image: url("../../images/7243-01-low-poly-background-16x9-3-1.jpg");
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    background-size: 100% 100%;
+}
+.mission_vission{
+    background-image: url("../../images/istockphoto-995719694-612x612.jpg");
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+/*-----------down to top*/
+#topBtn{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+#topBtn:hover{
+    background-color: green;
+    color: black;
+}
